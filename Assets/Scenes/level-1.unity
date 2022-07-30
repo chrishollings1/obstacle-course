@@ -278,7 +278,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.0808436, y: 1}
+    m_SensorSize: {x: 0.9983766, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -637,6 +637,7 @@ GameObject:
   - component: {fileID: 676749871}
   - component: {fileID: 676749875}
   - component: {fileID: 676749876}
+  - component: {fileID: 676749877}
   m_Layer: 0
   m_Name: Slugsy
   m_TagString: Untagged
@@ -750,6 +751,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
+--- !u!114 &676749877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 676749870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09b572bfec4de5844b08b267fe7b7369, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
