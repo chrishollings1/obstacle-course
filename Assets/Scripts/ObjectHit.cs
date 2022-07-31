@@ -9,7 +9,7 @@ public class ObjectHit : MonoBehaviour
       if(other.gameObject.tag == "Player")
       {
       GetComponent<MeshRenderer>().material.color = Color.gray;
-      //this gets the mesh renderer material color and changes it to the color after the dot
+      gameObject.tag = "Hits";
       }
    }
 }
